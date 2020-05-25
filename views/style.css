@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #1a535c;
+    color: #f7fff7;
+    overflow: hidden;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+.inputDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputDiv input {
+    margin: 5%;
+    width: 30%;
+    margin-left: 1%;
+    font-size: medium;
+}
+
+.inputDiv label {
+    margin: 5%;
+    margin-right: 0%;
+}
+
+.inputDiv button {
+    width: 100px;
+    height: 50px;
+    margin: 5%;
+    margin-left: 0%;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    color: #f7fff7;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #f7fff7;
+}
+
+.inputDiv button:hover :active {
+    background: #ffe66d;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.example {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0%;
+}
+
+.example h3 {
+    font-size: medium;
+    margin: 0%;
+    letter-spacing: 1px;
+}
+
+.example a {
+    font-size: x-small;
+    text-decoration: none;
+    color: #f7fff7;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+@media (max-width:760px) {
+    .inputDiv input {
+        width: 80%;
+        margin: 5% 0%;
+    }
+    .inputDiv button {
+        margin: 5% 0%;
+    }
+    .inputDiv label {
+        margin: 5% 0%;
+    }
+    #myForm {
+        margin-top: 15%;
+    }
+}

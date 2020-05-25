@@ -1,0 +1,2 @@
+MONGO_URI="<monngo uri here>"
+BASE_URL="http://localhost:5000 or something else"

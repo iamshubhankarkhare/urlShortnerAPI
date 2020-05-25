@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>urlShortnerAPI</title>
+</head>
+
+
+<body>
+    <form action="api/url/shorten" id="myForm" method="POST">
+        <h1>Url shortner</h1>
+        <div class="inputDiv">
+            <label for="url_input">URL to be shortened : </label>
+            <input id="url_input" type="text" name="longUrl" placeholder="URL..">
+            <button type="submit" value="POST URL">Send</button>
+        </div>
+    </form>
+    <div class="example">
+        <h1>Usage : </h1>
+        <h3> Submiting <a
+                href="https://github.com/iamshubhankarkhare/urlShortnerAPI">https://github.com/iamshubhankarkhare/urlShortnerAPI</a>
+            will send back a JSON response <br>
+            The shortUrl in json will redirect to the original url</h3>
+
+    </div>
+
+    <script>
+
+
+    </script>
+
+</body>
+
+</html>
